@@ -1,0 +1,23 @@
+{
+  "name": "spotify-later",
+  "version": "1.0.0",
+  "description": "Application to add save for later albums, rate albums, and remove them when done",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rudy hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13",
+    "passport": "^0.5.0",
+    "passport-azure-ad": "^4.3.1"
+  }
+}
